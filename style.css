@@ -1,0 +1,275 @@
+/* Font poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+}
+/* Content Satu */
+.materi-pembuka {
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+}
+.materi-pembuka > .left-content {
+  width: 45%;
+  margin: 0px 0px 0px 5px;
+}
+.materi-pembuka > .left-content > img {
+  width: 100%;
+}
+.materi-pembuka > .right-content {
+  width: 45%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.materi-pembuka > .right-content > h3 {
+  color: white;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 80px 0px 20px 0px;
+}
+.materi-pembuka > .right-content > h6 {
+  color: white;
+  font-weight: 450;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Container dua baru R */
+.materi-pembuka2 {
+  color: blue;
+  font: "poppins", sans-serif;
+  font-size: 3vh;
+  background-color: whitesmoke;
+}
+
+.isi-materi-pembuka2 h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 15px;
+  font: "poppins", sans-serif;
+  /* margin-top: 20px; */
+  /* margin-top: 20px; */
+}
+
+.isi-materi-pembuka2 p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.materi-pembuka2 img {
+  width: 100wh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+
+/* Container dua baru R akhir */
+
+/* Container tiga baru R awal */
+.isi-materi-pembuka3 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.isi-materi-pembuka3 .kiri-materi-pembuka3 img {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 15px;
+  /* margin-top: ; */
+}
+
+.isi-materi-pembuka3 .kanan-materi-pembuka3 p {
+  margin: 20px 20px;
+  /* background-color: red; */
+  color: blue;
+}
+
+/* Container tiga baru R akhir */
+
+/* Container empat baru R awal */
+.judul-materi-pembuka4 .isi-materi-pembuka4 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* padding: 45px; */
+  background-color: whitesmoke;
+}
+
+.judul-materi-pembuka4 {
+  background-color: whitesmoke;
+}
+
+.judul-materi-pembuka4 h2 {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.judul-materi-pembuka4 .isi-materi-pembuka4 h4 {
+  text-align: justify;
+  font-size: 12 px;
+  margin-left: 65px;
+  background-color: red;
+  width: 550px;
+  padding: 5px;
+  margin-top: -100px;
+}
+
+.judul-materi-pembuka4 > .isi-materi-pembuka4 p {
+  margin-left: 65px;
+}
+
+.judul-materi-pembuka4 > .isi-materi-pembuka4 img {
+  width: 150px;
+  margin-left: 100px;
+  padding: 15px;
+}
+
+.judul-materi-pembuka4 > .isi-materi-pembuka4 > .kanan-materi-pembuka4 h5 {
+  background-color: blue;
+  font-size: 16px;
+  margin-left: 15px;
+  /* margin-top: 20px; */
+  /* margin-top: 20px; */
+  /* margin-bottom: -10px; */
+  /* padding: 5px; */
+  margin-right: 25px;
+}
+
+.judul-materi-pembuka4
+  > .isi-materi-pembuka4
+  > .kanan-materi-pembuka4
+  > .kanan-materi2-pembuka4
+  p {
+  /* background-color: aqua; */
+  /* margin-top: -10px; */
+  text-align: justify;
+  margin-left: -0.5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.judul-materi-pembuka4
+  > .isi-materi-pembuka4
+  > .kanan-materi-pembuka4
+  > .kanan-materi2-pembuka4
+  img {
+  width: 350px;
+}
+/* Container empat akhir R akhir */
+
+/* Content Dua */
+.contoh-soal-satu {
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  /* background-color: whitesmoke; */
+}
+.contoh-soal-satu > h1 {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 10px;
+}
+.contoh-soal-satu > p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.contoh-soal-satu > .label {
+  display: flex;
+  gap: 15px;
+}
+.contoh-soal-satu > .label > .wrap-satu > .form-input {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contoh-soal-satu > .label > .wrap-satu > .form-input > h3 {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.contoh-soal-satu > .label > .wrap-satu > .form-input > input {
+  width: 300px;
+  height: 7vh;
+  text-align: center;
+  border-radius: 10px;
+}
+.contoh-soal-satu > .label > .wrap-satu > button {
+  margin-top: 10px;
+  position: relative;
+  left: 523px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 35%;
+  height: 7vh;
+  color: white;
+  background-color: grey;
+  border-radius: 10px;
+}
+.contoh-soal-satu > .label > .wrap-satu > button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #222 !important;
+}
+.contoh-soal-satu > .label-dua {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.contoh-soal-satu > .label-dua > textarea {
+  margin: 20px;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+/* CONTENT DUA END */
+
+/* CONTENT TIGA */
+.content-tiga {
+  width: 100%;
+  height: 100vh;
+  background-color: #222;
+}
+/* CONTENT TIGA END */
+
+/* CONTENT EMPAT */
+.content-empat {
+  width: 100%;
+  height: 100vh;
+  background-color: #e5dfd5;
+}
+/* CONTENT EMPAT END */
+
+/* CSS CONTROLLER SCROLL */
+.buttonscroll > button {
+  width: 3%;
+  height: 6vh;
+  border-radius: 50%;
+  position: fixed;
+  top: 560px;
+  right: 20px;
+  cursor: pointer;
+}
+/* CSS CONTROLLER SCROLL END */
